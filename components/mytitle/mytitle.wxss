@@ -1,0 +1,43 @@
+/* components/mytitle/mytitle.wxss */
+.my_title{
+    display: flex;
+    /* ???试试justify-content */
+    align-items: center;
+    /* 还不知道这两个什么区别 */
+  /*   justify-content: center; */
+    padding:10rpx;
+    background-color: white;
+}
+
+.logo{
+    flex: 7;
+
+}
+
+.search_icon{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user_icon{
+    flex:2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.down_app{
+    flex:3;
+    font-size: 30rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: pink;
+    color: #fff;
+    border-radius: 10rpx;
+    padding: 10rpx;
+
+    
+}
